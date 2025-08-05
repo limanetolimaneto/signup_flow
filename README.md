@@ -9,11 +9,11 @@ _Simulated User Registration System_
 
 ## 🧭 Overview
 
-The signup_flow project replicates a typical user onboarding flow used in many real-world applications. 
+The sign-up flow project replicates a typical user onboarding flow used in many real-world applications. 
 Built with Laravel, the system focuses on clarity, security, and best practices for user registration.
 
 ## 🧩 Key Features:
-📧 Email-based registration with secure password handling
+**📧 Email-based registration with secure password handling**
 🔐 4-digit verification code sent via email to confirm user identity
 🛡️ Validation logic to ensure proper input and secure user data
 🚦 Step-by-step user experience that mimics production environments

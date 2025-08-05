@@ -2,6 +2,9 @@
 
 _Simulated User Registration System_
 
+![MIT License](https://img.shields.io/badge/license-MIT-green)
+![Laravel](https://img.shields.io/badge/backend-Laravel-red)
+
 --- 
 
 ##🧭 Overview

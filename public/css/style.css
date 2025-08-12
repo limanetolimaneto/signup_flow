@@ -17,39 +17,111 @@ h2{
     padding: 4px 16px;
     float: right;
 }
+.code-bt{
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    padding:4px 0;
+}
 
 
+.full-form{
+    background-color:rgb(53, 52, 52);
+    padding: 10px 20px;
+    width: 88%;
+    margin: 0 auto;
+    color: rgb(30, 132, 136);
+    border-radius: 4px;
+}
+.form-div{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
 
-    .full-form{
-        background-color:rgb(53, 52, 52);
-        padding: 10px 20px;
-        width: 88%;
-        margin: 0 auto;
-        color: rgb(30, 132, 136);
-        border-radius: 4px;
-    }
-    p{
-        display:flex;
-        flex-direction: column;
-    }
+.code-form{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 4%;
+    left: 8%;
+    width: 80%;
+    background-color: rgb(207, 205, 205);
+    border-radius: 4px;
+    padding: 4% 2%;
+}
+.error-form{
+    background-color: rgb(15, 63, 65);
+    color: rgb(179, 176, 176);
+    padding: 10px 20px;
+    width: 33%;
+    border-radius: 4px;
+    position: absolute;
+    top: 10%;
+    left: 33%;
+    border-color:rgb(30, 132, 136);
+    border-style: solid;
+    box-shadow: 0px 0px 3px 1px rgb(197, 195, 195);
+}
+.error-form p{
+    text-align: left;
+}
+input[type=number]{
+    width: 30px;
+    -moz-appearance: textfield;
+}
+.code-form-div{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
 
+p{
+    text-align: center;
+    margin: 0 auto;
+}
 @media (min-width: 320px){
     .full-form{
         width: 60%;
         margin: 0 auto;
     }
-    p{
+    .form-div{
         flex-direction: column;
     }
 }
+@media (min-width: 400px) {
+    .code-form{
+        width: 60%;
+        left: 18%;
+    }
+ 
+}
+
 @media (min-width: 720px) {
     .full-form{
         width: 40%;
         margin: 0 auto;
     }
-    p{
+    .form-div{
         flex-direction: row;
         justify-content: space-between;
     }
+
+    .code-form{
+        width: 30%;
+        left: 33%;
+    }
+    .code-form-div{
+    width: 60%;
+    margin-left: 20%;
+    }
 }
 
+.password-info{
+    font-style: italic;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+}
